@@ -37,6 +37,12 @@ import { SettingComponent } from './components/layout/header/setting/setting.com
 import { ShoppingCartDropdownComponent } from './components/layout/header/shopping-cart-dropdown/shopping-cart-dropdown.component';
 import { MenuLargeComponent } from './components/layout/header/menu-large/menu-large.component';
 import { MenuSmallComponent } from './components/layout/header/menu-small/menu-small.component';
+import { OuterAnimationComponent } from './components/content/outer-animation/outer-animation.component';
+import { ProductsComponent } from './components/content/products/products.component';
+import { CategoriesComponent } from './components/content/categories/categories.component';
+import { BlogComponent } from './components/content/blog/blog.component';
+import { BrandsComponent } from './components/content/brands/brands.component';
+import { BrandComponent } from './components/content/brands/brand/brand.component';
 
 
 
@@ -74,7 +80,13 @@ import { MenuSmallComponent } from './components/layout/header/menu-small/menu-s
     SettingComponent,
     ShoppingCartDropdownComponent,
     MenuLargeComponent,
-    MenuSmallComponent
+    MenuSmallComponent,
+    OuterAnimationComponent,
+    ProductsComponent,
+    CategoriesComponent,
+    BlogComponent,
+    BrandsComponent,
+    BrandComponent
   ],
   imports: [
     BrowserModule, 
