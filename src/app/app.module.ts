@@ -53,6 +53,12 @@ import { ColorOptionsComponent } from './components/content/products/product-ite
 import { AddItemComponent } from './components/content/products/product-item/add-item/add-item.component';
 import { CountDownComponent } from './components/content/products/product-item/count-down/count-down.component';
 import { OutStockComponent } from './components/content/products/product-item/out-stock/out-stock.component';
+import { ProductImageComponent } from './components/content/products/product-item/product-image/product-image.component';
+import { ProductRatingComponent } from './components/content/products/product-item/product-rating/product-rating.component';
+import { IconAddTocartComponent } from './components/content/products/product-item/icon-add-tocart/icon-add-tocart.component';
+import { IconQuickviewComponent } from './components/content/products/product-item/icon-quickview/icon-quickview.component';
+import { TitleComponent } from './components/content/products/product-item/title/title.component';
+
 
 
 
@@ -106,7 +112,12 @@ import { OutStockComponent } from './components/content/products/product-item/ou
     ColorOptionsComponent,
     AddItemComponent,
     CountDownComponent,
-    OutStockComponent
+    OutStockComponent,
+    ProductImageComponent,
+    ProductRatingComponent,
+    IconAddTocartComponent,
+    IconQuickviewComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule, 

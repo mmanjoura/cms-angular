@@ -1,18 +1,26 @@
 <div class="product-preview">
-    <div class="product-preview__image"><a href="product.html"><img src="./assets/images/products/product-empty.png" data-lazy="./assets/images/products/product-1.jpg" alt=""/></a></div>
-    <app-out-stock></app-out-stock>
-    <app-new></app-new>
-    <app-sale></app-sale>
-
-    <div class="product-preview__info text-center">
-      <div class="product-preview__info__btns"><a href="#" class="btn btn--round ajax-to-cart"><span class="icon-ecommerce"></span></a> <a href="quick-view.html" class="btn btn--round btn--dark btn-quickview" data-toggle="modal" data-target="#quickView"><span class="icon icon-eye"></span></a></div>
-      <div class="product-preview__info__title">
-        <h2><a href="#">Fast Seconds Knit White</a></h2>
-      </div>
-      <div class="rating"><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span><span class="icon-star"></span></div>
-        <app-color-options></app-color-options>
-        <app-price></app-price>
-        <app-preview-info></app-preview-info>
-        <app-add-item></app-add-item>
-    </div>
+  <div class="product-preview__image">
+    <app-product-image></app-product-image>
+    <!-- <app-count-down></app-count-down> -->
   </div>
+  <!-- <app-out-stock></app-out-stock> -->
+  <app-new></app-new>
+  <app-sale></app-sale>
+
+  <div class="product-preview__info text-center">
+    <div class="product-preview__info__btns">
+      <app-icon-add-tocart></app-icon-add-tocart>
+      <app-icon-quickview></app-icon-quickview>
+    </div>
+    <div class="product-preview__info__title">
+      <h2>
+        <a href="#">Fast Seconds Knit White</a>
+      </h2>
+    </div>
+    <app-product-rating></app-product-rating>
+    <app-color-options></app-color-options>
+    <app-price></app-price>
+    <app-preview-info></app-preview-info>
+    <app-add-item></app-add-item>
+  </div>
+</div>
