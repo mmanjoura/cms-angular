@@ -43,6 +43,16 @@ import { CategoriesComponent } from './components/content/categories/categories.
 import { BlogComponent } from './components/content/blog/blog.component';
 import { BrandsComponent } from './components/content/brands/brands.component';
 import { BrandComponent } from './components/content/brands/brand/brand.component';
+import { CategoryComponent } from './components/content/categories/category/category.component';
+import { ProductItemComponent } from './components/content/products/product-item/product-item.component';
+import { NewComponent } from './components/content/products/product-item/new/new.component';
+import { SaleComponent } from './components/content/products/product-item/sale/sale.component';
+import { PreviewInfoComponent } from './components/content/products/product-item/preview-info/preview-info.component';
+import { PriceComponent } from './components/content/products/product-item/price/price.component';
+import { ColorOptionsComponent } from './components/content/products/product-item/color-options/color-options.component';
+import { AddItemComponent } from './components/content/products/product-item/add-item/add-item.component';
+import { CountDownComponent } from './components/content/products/product-item/count-down/count-down.component';
+import { OutStockComponent } from './components/content/products/product-item/out-stock/out-stock.component';
 
 
 
@@ -86,7 +96,17 @@ import { BrandComponent } from './components/content/brands/brand/brand.componen
     CategoriesComponent,
     BlogComponent,
     BrandsComponent,
-    BrandComponent
+    BrandComponent,
+    CategoryComponent,
+    ProductItemComponent,
+    NewComponent,
+    SaleComponent,
+    PreviewInfoComponent,
+    PriceComponent,
+    ColorOptionsComponent,
+    AddItemComponent,
+    CountDownComponent,
+    OutStockComponent
   ],
   imports: [
     BrowserModule, 
