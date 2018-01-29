@@ -28,6 +28,16 @@ import { AboutComponent } from './components/about/about.component';
 import { LoginComponent } from './components/login/login.component';
 import { CreateAccountComponent } from './components/create-account/create-account.component';
 import { EmptyComponent } from './components/shopping-cart/empty/empty.component';
+import { MyaccountComponent } from './components/layout/header/setting/myaccount/myaccount.component';
+import { LanguageComponent } from './components/layout/header/setting/language/language.component';
+import { CurrencyComponent } from './components/layout/header/setting/currency/currency.component';
+import { HeaderDropdownsComponent } from './components/layout/header/header-dropdowns/header-dropdowns.component';
+import { LogoComponent } from './components/layout/header/logo/logo.component';
+import { SettingComponent } from './components/layout/header/setting/setting.component';
+import { ShoppingCartDropdownComponent } from './components/layout/header/shopping-cart-dropdown/shopping-cart-dropdown.component';
+import { MenuLargeComponent } from './components/layout/header/menu-large/menu-large.component';
+import { MenuSmallComponent } from './components/layout/header/menu-small/menu-small.component';
+
 
 
 @NgModule({
@@ -55,7 +65,16 @@ import { EmptyComponent } from './components/shopping-cart/empty/empty.component
     AboutComponent,
     LoginComponent,
     CreateAccountComponent,
-    EmptyComponent
+    EmptyComponent,
+    MyaccountComponent,
+    LanguageComponent,
+    HeaderDropdownsComponent,
+    LogoComponent,
+    CurrencyComponent,
+    SettingComponent,
+    ShoppingCartDropdownComponent,
+    MenuLargeComponent,
+    MenuSmallComponent
   ],
   imports: [
     BrowserModule, 

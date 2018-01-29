@@ -1,0 +1,21 @@
+<div class="header__dropdowns-container">
+  <div class="header__dropdowns">
+    <div class="header__search pull-left"> <a href="#" class="btn dropdown-toggle btn--links--dropdown header__dropdowns__button search-open">
+    <span class="icon icon-search"></span></a> </div>
+     <app-shopping-cart-dropdown></app-shopping-cart-dropdown>
+   
+    <div class="dropdown pull-right"> <a href="#" class="btn dropdown-toggle btn--links--dropdown header__dropdowns__button" data-toggle="dropdown"><span class="icon icon-dots"></span></a>
+      <ul class="dropdown-menu ul-row animated fadeIn" role="menu">
+        <li class='li-col currency'>
+          <app-currency></app-currency>
+        </li>
+        <li class='li-col languages languages--flag'>
+          <app-language></app-language>
+        </li>
+        <li class='li-col list-user-menu'>
+          <app-myaccount></app-myaccount>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
