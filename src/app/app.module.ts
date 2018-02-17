@@ -58,6 +58,11 @@ import { ProductRatingComponent } from './components/content/products/product-it
 import { IconAddTocartComponent } from './components/content/products/product-item/icon-add-tocart/icon-add-tocart.component';
 import { IconQuickviewComponent } from './components/content/products/product-item/icon-quickview/icon-quickview.component';
 import { TitleComponent } from './components/content/products/product-item/title/title.component';
+import { BottomComponent } from './components/layout/footer/bottom/bottom.component';
+import { SettingsComponent } from './components/layout/footer/settings/settings.component';
+import { SubscribeComponent } from './components/layout/footer/subscribe/subscribe.component';
+import { ColumnLinksComponent } from './components/layout/footer/column-links/column-links.component';
+import { LinksComponent } from './components/layout/footer/links/links.component';
 
 
 
@@ -117,7 +122,12 @@ import { TitleComponent } from './components/content/products/product-item/title
     ProductRatingComponent,
     IconAddTocartComponent,
     IconQuickviewComponent,
-    TitleComponent
+    TitleComponent,
+    BottomComponent,
+    SettingsComponent,
+    SubscribeComponent,
+    ColumnLinksComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule, 
