@@ -12,6 +12,7 @@ import { AboutComponent } from './components/about/about.component';
 import { LoginComponent }  from './components/login/login.component';
 import { CreateAccountComponent } from './components/create-account/create-account.component';
 import { EmptyComponent } from './components/shopping-cart/empty/empty.component';
+import { AccountComponent } from './components/account/account.component';
 
 const routes: Routes = [
   { path: '',  component: HomeComponent},
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent},
   { path: 'sign', component: LoginComponent},
   { path: 'createaccount', component: CreateAccountComponent},
-  { path: 'emptycart', component: EmptyComponent}
+  { path: 'emptycart', component: EmptyComponent},
+  { path: 'account', component: AccountComponent}
 
 ];
 

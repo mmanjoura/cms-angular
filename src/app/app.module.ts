@@ -31,7 +31,7 @@ import { EmptyComponent } from './components/shopping-cart/empty/empty.component
 import { MyaccountComponent } from './components/layout/header/setting/myaccount/myaccount.component';
 import { LanguageComponent } from './components/layout/header/setting/language/language.component';
 import { CurrencyComponent } from './components/layout/header/setting/currency/currency.component';
-import { HeaderDropdownsComponent } from './components/layout/header/header-dropdowns/header-dropdowns.component';
+import { HeaderDropdownsComponent } from './components/layout/header/dropdowns/dropdowns.component';
 import { LogoComponent } from './components/layout/header/logo/logo.component';
 import { SettingComponent } from './components/layout/header/setting/setting.component';
 import { ShoppingCartDropdownComponent } from './components/layout/header/shopping-cart-dropdown/shopping-cart-dropdown.component';
@@ -63,6 +63,8 @@ import { SettingsComponent } from './components/layout/footer/settings/settings.
 import { SubscribeComponent } from './components/layout/footer/subscribe/subscribe.component';
 import { ColumnLinksComponent } from './components/layout/footer/column-links/column-links.component';
 import { LinksComponent } from './components/layout/footer/links/links.component';
+import { LineComponent } from './components/layout/header/line/line.component';
+import { AccountComponent } from './components/account/account.component';
 
 
 
@@ -127,7 +129,9 @@ import { LinksComponent } from './components/layout/footer/links/links.component
     SettingsComponent,
     SubscribeComponent,
     ColumnLinksComponent,
-    LinksComponent
+    LinksComponent,
+    LineComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule, 
